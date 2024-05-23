@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+  <title>Filmer App By Soymilk81</title>
+
+  <!-- Icon -->
+  <link rel="icon" href="immagini/cinemaIcon.svg">
+
+  <!-- Font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Stile -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+
+    <!-- Intestazione -->
+    <header class="panel">
+      <h1>Filmer</h1>
+      <img src="immagini/cinemaIcon.svg" alt="Logo App">
+    </header>
+
+    <!-- Sezione principale -->
+    <main>
+      <!-- MEssaggio da mostrare se non ho attività -->
+      <p class="empty-list-message"></p>
+
+      <!-- Lista attività -->
+      <ul class="todo-list">
+
+      </ul>
+
+      <!-- pannello aggiunta attività -->
+      <div class="panel add-todo">
+        <input type="text" placeholder="Aggiungi film">
+        <button>
+          <img src="immagini/add.svg" alt="Aggiungi">
+        </button>
+      </div>
+
+      <!-- Lista attività valutate -->
+      <div class="rated-todo-list"></div>
+
+
+      <!-- Javascript -->
+      <script src="script.js"></script>
+</body>
+
+</html>
